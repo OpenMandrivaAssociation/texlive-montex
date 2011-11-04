@@ -1,3 +1,9 @@
+# revision 17853
+# category Package
+# catalog-ctan /language/mongolian/montex
+# catalog-date 2010-04-09 16:33:31 +0200
+# catalog-license gpl
+# catalog-version IVu.04.092
 Name:		texlive-montex
 Version:	IVu.04.092
 Release:	1
@@ -379,6 +385,7 @@ supported in DVI.
 %doc %{_texmfdistdir}/doc/latex/montex/testfont.sh
 %doc %{_texmfdistdir}/doc/latex/montex/zanabazr.pdf
 %doc %{_texmfdistdir}/doc/latex/montex/zanabazr.tex
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -389,3 +396,5 @@ supported in DVI.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar fonts tex doc %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
