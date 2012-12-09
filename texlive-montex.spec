@@ -386,3 +386,17 @@ supported in DVI.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar fonts tex doc %{buildroot}%{_texmfdistdir}
+
+
+%changelog
+* Wed Jan 04 2012 Paulo Andrade <pcpa@mandriva.com.br> IVu.04.092-2
++ Revision: 754102
+- Rebuild to reduce used resources
+
+* Sat Nov 05 2011 Paulo Andrade <pcpa@mandriva.com.br> IVu.04.092-1
++ Revision: 719058
+- texlive-montex
+- texlive-montex
+- texlive-montex
+- texlive-montex
+
