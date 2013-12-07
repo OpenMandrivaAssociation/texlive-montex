@@ -6,7 +6,7 @@
 # catalog-version IVu.04.092
 Name:		texlive-montex
 Version:	IVu.04.092
-Release:	4
+Release:	5
 Summary:	Mongolian LaTeX
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/language/mongolian/montex
