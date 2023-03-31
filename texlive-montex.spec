@@ -1,6 +1,6 @@
 Name:		texlive-montex
 Version:	29349
-Release:	1
+Release:	2
 Summary:	Mongolian LaTeX
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/language/mongolian/montex
